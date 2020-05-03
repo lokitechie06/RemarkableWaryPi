@@ -33,3 +33,7 @@
 Given 2 ints, a and b, return True if one if them is 10 or if their sum is 10. '''
 
 
+7. near_hundred: **near_hundred.py**
+
+''' 
+Given an int n, return True if it is within 10 of 100 or 200. Note: abs(num) computes the absolute value of a number. '''
