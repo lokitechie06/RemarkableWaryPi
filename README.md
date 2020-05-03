@@ -7,3 +7,5 @@
 2. Find cummulative sum of elements in a list 
       __cumm_summ_list_2.py__
 
+3. Take number input and output list of digits (hint: convert number to str and str to int while printing output list)
+      __output_list_digits_3.py__

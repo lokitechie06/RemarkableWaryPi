@@ -1,15 +1,4 @@
 """
-1. odd_positions_1.py 
-Write a function that returns the elements on odd positions (0 based) in a list
-
-2. cumm_sum_list_2.py
-Write a function that returns the cumulative sum of elements in a list
-
-3. output_list_digits_3.py
-Write a function that takes a number and returns a list of its digits
-"""
-
-"""
 Write a function that takes a number and returns a list of its digits
 """
 def solution(input):
