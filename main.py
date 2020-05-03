@@ -20,17 +20,14 @@ that the array is length 3 or more.
 
 """
 
-def front_back(str):
-  newStr=''
-  if len(str)<=1:
-    newStr = str
+def first_two(str):
+  if len(str)>2:
+    return str[0:2]
+  elif len(str)<=2:
+    return str
   else:
-    firstChar = str[0]
-    lastChar = str[-1]
-    newStr = lastChar+str[1:len(str)-1]+firstChar
-  return newStr
+    return ''
 
-
-print(front_back('code'))
-print(front_back('a'))
-print(front_back('ab'))
+print(first_two('Hello'))
+print(first_two('ab'))
+print(first_two(''))

@@ -64,3 +64,61 @@ Given a string, return a new string where "not " has been added to the front. Ho
 12. front3: __front3.py__
 
 ''' Given a string, we'll say that the front is the first 3 chars of the string. If the string length is less than 3, the front is whatever is there. Return a new string which is 3 copies of the front. '''
+
+
+## String-1
+
+13. hello_name: __hello_name.py__
+
+''' Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".'''
+
+
+14. make_abba: __make_abba.py__
+
+''' Given two strings, a and b, return the result of putting them together in the order abba, e.g. "Hi" and "Bye" returns "HiByeByeHi". '''
+
+
+15. make_tags: __make_tags.py__
+
+''' The web is built with HTML strings like "<i>Yay</i>" which draws Yay as italic text. In this example, the "i" tag makes <i> and </i> which surround the word "Yay". Given tag and word strings, create the HTML string with tags around the word, e.g. "<i>Yay</i>". '''
+
+
+16. make_out_word: __make_out_word.py__
+
+''' Given an "out" string length 4, such as "<<>>", and a word, return a new string where the word is in the middle of the out string, e.g. "<<word>>". '''
+
+
+17. extra_end: __extra_end.py__
+
+''' Given a string, return a new string made of 3 copies of the last 2 chars of the original string. The string length will be at least 2. '''
+
+
+18. first_two: __first_two.py__
+
+''' Given a string, return the string made of its first two chars, so the String "Hello" yields "He". If the string is shorter than length 2, return whatever there is, so "X" yields "X", and the empty string "" yields the empty string "". '''
+
+
+19. first_half: __first_half.py__
+
+''' Given a string of even length, return the first half. So the string "WooHoo" yields "Woo". '''
+
+
+20. without_end: __without_end.py__
+
+''' Given a string, return a version without the first and last char, so "Hello" yields "ell". The string length will be at least 2. '''
+
+
+21. combo_string: __combo_string.py__
+
+''' Given 2 strings, a and b, return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside. The strings will not be the same length, but they may be empty (length 0). '''
+
+
+22. non_start: __non_start.py__
+
+''' Given 2 strings, return their concatenation, except omit the first char of each. The strings will be at least length 1. '''
+
+
+23. left2: __left2.py__
+
+''' Given a string, return a "rotated left 2" version where the first 2 chars are moved to the end. The string length will be at least 2. '''
+
