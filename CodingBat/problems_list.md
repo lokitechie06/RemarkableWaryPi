@@ -43,3 +43,9 @@ Given an int n, return True if it is within 10 of 100 or 200. Note: abs(num) com
 
 ''' 
 Given 2 int values, return True if one is negative and one is positive. Except if the parameter "negative" is True, then return True only if both are negative. '''
+
+
+9. not_string: **not_string.py**
+
+'''
+Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged. '''
