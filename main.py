@@ -19,12 +19,3 @@ that the array is length 3 or more.
 
 
 """
-
-def not_string(str):
-  if str.find('not', 0, 2)==-1:
-    newStr = 'not '+str
-    return newStr
-  else:
-    return str
-
-print(not_string('candy'))

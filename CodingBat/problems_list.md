@@ -49,3 +49,8 @@ Given 2 int values, return True if one is negative and one is positive. Except i
 
 '''
 Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged. '''
+
+
+10. missing_char: **missing_char.py**
+
+''' Given a non-empty string and an int n, return a new string where the char at index n has been removed. The value of n will be a valid index of a char in the original string (i.e. n will be in the range 0..len(str)-1 inclusive). '''
