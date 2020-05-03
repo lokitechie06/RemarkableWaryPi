@@ -19,6 +19,11 @@
 
 4. diff21: **diff21.py**
 
-'''Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21. '''
+''' Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21. '''
+
+
+5. parrot_trouble: **parrot_trouble.py**
+
+''' We have a loud talking parrot. The "hour" parameter is the current hour time in the range 0..23. We are in trouble if the parrot is talking and the hour is before 7 or after 20. Return True if we are in trouble. '''
 
 
