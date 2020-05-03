@@ -17,3 +17,8 @@
 ''' Given two int values, return their sum. Unless the two values are the same, then return double their sum. '''
 
 
+4. diff21: **diff21.py**
+
+'''Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21. '''
+
+
