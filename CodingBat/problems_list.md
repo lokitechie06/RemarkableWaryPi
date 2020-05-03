@@ -168,3 +168,65 @@ Given a string, return a new string where "not " has been added to the front. Ho
 32. near_ten: __near_ten.py__
 
 ''' Given a non-negative number "num", return True if num is within 2 of a multiple of 10. Note: (a % b) is the remainder of dividing a by b, so (7 % 5) is 2. '''
+
+
+## list-1
+
+33. first_last6: __first_last6.py__
+
+''' Given an array of ints, return True if 6 appears as either the first or last element in the array. The array will be length 1 or more. '''
+
+
+34. same_first_last: __same_first_last.py__
+
+''' Given an array of ints, return True if the array is length 1 or more, and the first element and the last element are equal. '''
+
+
+35. make_pi: __make_pi.py__
+
+''' Return an int array length 3 containing the first 3 digits of pi, {3, 1, 4}. '''
+
+
+36. common_end: __common_end.py__
+
+''' Given 2 arrays of ints, a and b, return True if they have the same first element or they have the same last element. Both arrays will be length 1 or more. '''
+
+
+37. sum3: __sum3.py__
+
+''' Given an array of ints length 3, return the sum of all the elements. '''
+
+
+38. rotate_left3: __rotate_left3.py__
+
+''' Given an array of ints length 3, return an array with the elements "rotated left" so {1, 2, 3} yields {2, 3, 1}. '''
+
+
+39. reverse3: __reverse3.py__
+
+''' Given an array of ints length 3, return a new array with the elements in reverse order, so {1, 2, 3} becomes {3, 2, 1}. '''
+
+
+40. max_end3: __max_end3.py__
+
+''' Given an array of ints length 3, figure out which is larger, the first or last element in the array, and set all the other elements to be that value. Return the changed array. '''
+
+
+41. sum2: __sum2.py__
+
+''' Given an array of ints, return the sum of the first 2 elements in the array. If the array length is less than 2, just sum up the elements that exist, returning 0 if the array is length 0. '''
+
+
+42. middle_way: __middle_way.py__
+
+''' Given 2 int arrays, a and b, each length 3, return a new array length 2 containing their middle elements. '''
+
+
+43. make_ends: __make_ends.py__
+
+''' Given an array of ints, return a new array length 2 containing the first and last elements from the original array. The original array will be length 1 or more. '''
+
+
+44. has23: __has23.py__
+
+''' Given an int array length 2, return True if it contains a 2 or a 3. '''

@@ -20,14 +20,9 @@ that the array is length 3 or more.
 
 """
 
-def first_two(str):
-  if len(str)>2:
-    return str[0:2]
-  elif len(str)<=2:
-    return str
-  else:
-    return ''
+def same_first_last(nums):
+  return nums[0]==nums[-1]
 
-print(first_two('Hello'))
-print(first_two('ab'))
-print(first_two(''))
+print(same_first_last([1, 2, 3]))
+print(same_first_last([1, 2, 3, 1]))
+print(same_first_last([1, 2, 1]))
