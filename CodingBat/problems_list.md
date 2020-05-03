@@ -59,3 +59,8 @@ Given a string, return a new string where "not " has been added to the front. Ho
 11. front_back: __front_back.py__
 
 ''' Given a string, return a new string where the first and last chars have been exchanged. '''
+
+
+12. front3: __front3.py__
+
+''' Given a string, we'll say that the front is the first 3 chars of the string. If the string length is less than 3, the front is whatever is there. Return a new string which is 3 copies of the front. '''
