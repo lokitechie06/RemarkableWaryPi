@@ -37,3 +37,9 @@ Given 2 ints, a and b, return True if one if them is 10 or if their sum is 10. '
 
 ''' 
 Given an int n, return True if it is within 10 of 100 or 200. Note: abs(num) computes the absolute value of a number. '''
+
+
+8. pos_neg: **pos_neg.py**
+
+''' 
+Given 2 int values, return True if one is negative and one is positive. Except if the parameter "negative" is True, then return True only if both are negative. '''
