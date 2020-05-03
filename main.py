@@ -19,3 +19,18 @@ that the array is length 3 or more.
 
 
 """
+
+def front_back(str):
+  newStr=''
+  if len(str)<=1:
+    newStr = str
+  else:
+    firstChar = str[0]
+    lastChar = str[-1]
+    newStr = lastChar+str[1:len(str)-1]+firstChar
+  return newStr
+
+
+print(front_back('code'))
+print(front_back('a'))
+print(front_back('ab'))
