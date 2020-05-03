@@ -9,3 +9,8 @@
 
 3. Take number input and output list of digits (hint: convert number to str and str to int while printing output list)
       __output_list_digits_3.py__
+
+
+4. Get centered average of array of ints (hint: sum(input)-min(input)-max(intput)/len(2)-1)
+      __centered_avg_arr_of_ints_4.py__
+
