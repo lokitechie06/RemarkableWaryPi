@@ -230,3 +230,62 @@ Given a string, return a new string where "not " has been added to the front. Ho
 44. has23: __has23.py__
 
 ''' Given an int array length 2, return True if it contains a 2 or a 3. '''
+
+
+## Warmup-2
+
+45. string_times: __string_times.py__
+
+''' Given a string and a non-negative int n, return a larger string that is n copies of the original string. '''
+
+
+46. front_times: __front_times.py__
+
+''' Given a string and a non-negative int n, we'll say that the front of the string is the first 3 chars, or whatever is there if the string is less than length 3. Return n copies of the front; '''
+
+
+47. string_bits: __string_bits.py__
+
+''' Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo". '''
+
+
+48. string_splosion: __string_splosion.py__
+
+''' Given a non-empty string like "Code" return a string like "CCoCodCode". '''
+
+
+49. last2: __last2.py__
+
+''' Given a string, return the count of the number of times that a substring length 2 appears in the string and also as the last 2 chars of the string, so "hixxxhi" yields 1 (we won't count the end substring). '''
+
+
+50. array_count9: __array_count9.py__
+
+''' Given an array of ints, return the number of 9's in the array. '''
+
+
+51. array_front9: __array_front9.py__
+
+''' Given an array of ints, return True if one of the first 4 elements in the array is a 9. The array length may be less than 4. '''
+
+
+52. array123: __array123.py__
+
+''' Given an array of ints, return True if the sequence of numbers 1, 2, 3 appears in the array somewhere. '''
+
+
+53. string_match: __string_match.py__
+
+''' Given 2 strings, a and b, return the number of the positions where they contain the same length 2 substring. So "xxcaazz" and "xxbaaz" yields 3, since the "xx", "aa", and "az" substrings appear in the same place in both strings. '''
+
+
+## String-2
+
+54. double_char: __double_char.py__
+
+''' Given a string, return a string where for every char in the original, there are two chars. '''
+
+
+55. count_hi: __count_hi.py__
+
+''' Return the number of times that the string "hi" appears anywhere in the given string. '''

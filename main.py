@@ -20,9 +20,16 @@ that the array is length 3 or more.
 
 """
 
-def same_first_last(nums):
-  return nums[0]==nums[-1]
+def string_splosion(str):
+  print("str", str)
+  print("len of str", len(str))
+  xplosed = ''
+  for i in range(len(str)+1):
+    print(str[:i])
+    xplosed += str[:i]
+  return xplosed
 
-print(same_first_last([1, 2, 3]))
-print(same_first_last([1, 2, 3, 1]))
-print(same_first_last([1, 2, 1]))
+
+print(string_splosion('Code')) # CCoCodCode
+print(string_splosion('abc')) # aababc
+print(string_splosion('ab')) # aab
