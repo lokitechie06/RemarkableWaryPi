@@ -18,6 +18,7 @@ value. Use int division to produce the final average. You may assume
 that the array is length 3 or more.
 
 
+5. find the average length of word in sentence
 """
 
 def odd_positions(input):
