@@ -1,5 +1,6 @@
 # In Python, any data will be stored as an object.
 # An object has 3 types - id, type, value
+# Explained well in this article - https://medium.com/datadriveninvestor/mutable-and-immutable-python-2093deeac8d9
 #####################################
 
 # ID 
