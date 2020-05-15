@@ -193,3 +193,34 @@ print(list*2)
 
 # print concatenated lists
 print(list+tinylist)
+
+
+####################################
+# TUPLES
+# similar to list, but enclose in ()
+# but these are immutable, which means cannot be updated
+# in other words, read-only lists
+
+tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
+tinytuple = (123, 'john')
+
+# print complete tuple
+print(tuple)
+
+# print first element of the tuple
+print(tuple[0])
+
+# print elements starting from 2nd till 3rd
+print(tuple[1:3])
+
+# print element starting from 3rd element
+print(tuple[2:])
+
+# print tuple two times
+print(tuple * 2)
+
+# print concatenated tuple
+print(tuple + tinytuple)
+
+# NOTE
+tuple[2] = 1000 # invalid syntax with tuple
