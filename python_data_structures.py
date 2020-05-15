@@ -113,6 +113,33 @@ print(id(my_list))
 # id of the list will be same, 
 # however id of the list element will be different
 
+
+#####################################
+# Immutable Objects
+# integer, float, string, tuple, bool, frozenset
+
+# is an object that is not changeable and its state cannot be modified after it is created
+# string is immutable, cannot overwrite the values of immutable objects
+phrase = "how you like me now"
+print(phrase)
+print(id(phrase))
+phrase = "do you fee lucky?"
+print(phrase)
+print(id(phrase))
+
+# since a string is immutable, it creates a new string object
+# memory addresses do not match
+print(phase[0]='D')
+# TypeError: 'str' object does not support item assignment
+# TypeError because strings are immutable.
+# We can't change the string object
+
+
+#####################################
+# Why do mutable and immutable objects matter?
+# Immutability may be used to ensure that an object remains constant throughout your program.
+# The values of mutable objects can be changed at any time and place, whether you expect it or not
+
 ####################################
 # Strings - slicing, concatenation, character-wise, access using index, strip
 
