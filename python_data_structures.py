@@ -224,3 +224,33 @@ print(tuple + tinytuple)
 
 # NOTE
 tuple[2] = 1000 # invalid syntax with tuple
+
+
+####################################
+# DICTIONARY
+# hash-table type
+# consist of key-value pairs
+# dictionary key - can be almost any python type
+# dictionary values - can be any arbitary python object
+# enclosed by {}
+
+dict = {}
+dict['one'] = "This is one"
+dict[2] = "This is two"
+
+tinydict = {'name':'john', 'code':6734, 'dept':'sales'}
+
+# prints the value for one key
+print(dict['one'])
+
+# prints value for 2 key
+print(dict[2])
+
+# prints complete dictionary
+print(tinydict)
+
+# prints all the keys
+print(tinydict.keys())
+
+# prints all the values
+print(tinydict.values())
