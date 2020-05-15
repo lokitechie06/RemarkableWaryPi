@@ -1,6 +1,5 @@
 # In Python, any data will be stored as an object.
 # An object has 3 types - id, type, value
-# Explained well in this article - https://medium.com/datadriveninvestor/mutable-and-immutable-python-2093deeac8d9
 #####################################
 
 # ID 
@@ -163,3 +162,34 @@ print(str * 2)
 
 # print concatenated string
 print(str + "test")
+
+
+####################################
+# LISTS
+# most versatile of python's compound types
+# list contains items separated by commas and []
+# items of a list can be of different data types
+# values stored are accessed using slice operator and indexes
+# + is the concatenatino operation operator
+# * is the repetition operator
+
+list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]
+tinylist = [123, 'john']
+
+# print complete list
+print(list)
+
+# print first element of the list
+print(list[0])
+
+# print elements starting from 2nd till 3rd
+print(list[1:3])
+
+# print elements starting from 3rd element
+print(list[2:])
+
+# print list two times
+print(list*2)
+
+# print concatenated lists
+print(list+tinylist)
