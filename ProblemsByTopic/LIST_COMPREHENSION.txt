@@ -1,0 +1,89 @@
+LIST COMPREHENSION
+
+1. Using list comprehension, print the list after removing the value 24 in [12,24,35,24,88,120,155]
+
+hint: as we need to delete based on the value from list, use remove() to delete a value
+
+Solution:
+
+l = [12,24,35,24,88,120,155]
+l = [x for x in l if x!=24]
+print(l)
+
+
+2. Using list comprehension, print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155]
+
+hint: use list comprehension to delete a bunch of elements from a list
+use enumerate() to get (index, value) tuple
+
+Solution:
+
+l = [12,24,35,70,88,120,155]
+l = [x for (i,x) in enumerate(l) if i not in (0,4,5)]
+print(l)
+
+
+3. Using list comprehension, generate a 3*5*8 3D array whose element is 0
+
+hint: use list comprehension to make an array
+
+Solution:
+
+array = [[ [0 for col in range(8)] for col in range(5)] for col in range[3]]
+print(array)
+
+
+4. Using list comprehension, print the list after removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155]
+
+hint: 
+use list comprehension to delete a bunch of elements from a list
+use enumerate() to get(index, value) tuple
+
+l = [12,24,35,70,88,120,155]
+l = [x for (i,x) in enumerate(l) if i%2!=0]
+print(l)
+
+
+5. Using list comprehenstion, print th elist after removing numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155]
+
+hint: use list comprehension, to delete bunch of elements from a list at once
+
+l = [12,24,35,70,88,120,155]
+l = [x for x in l if x%5!=0 and x%7!=0]
+print(l)
+
+
+6. Print the list after removing delete even numbers in [5,6,77,45,22,12,24]
+
+hint: use list comprehension to delete a bunch of elements from a list
+
+l = [5,6,77,45,22,12,24]
+l = [x for x in l if x%2!=0]
+print(l)
+
+
+7. Generate all sentences where subject is in ["I, You"] and verb is in ["Play", "Love"] and the object is in ["Hockey","Football"].
+
+hint: use list[index] notation to get a element from alist
+
+subjects = ["I", "You"]
+verbs = ["Play","Love"]
+objects = ["Hockey","Football"]
+
+for i in range(len(subjects)):
+	for j in range(len(verbs)):
+		for k in range(len(objects)):
+			sentence = "%s %s %s" %(subjects[i], verbs[j], objects[k])
+			print(sentence)
+
+
+8. Shuffle and print the list [3,6,7,8]
+
+hint: use shuffle() - to shuffle a list
+
+from random import shuffle
+l = [3,6,7,8]
+shuffle(l)
+print(l)
+
+

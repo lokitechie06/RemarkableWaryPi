@@ -1,0 +1,45 @@
+GENERAL
+
+1. print the running time of execution of  "1+1" for 100 times
+
+hint - use timeit() function to measure running time
+
+from timeit import Timer
+t = Timer("for i in range(100):1+1")
+print(t.timeit())
+
+
+2. compress a decompress a string
+input: "hello world!hello world!hello world!hello world!"
+
+hint - use zlib.compress() and zlib.decompress()
+
+import zlib
+s = 'hello world!hello world!hello world!hello world!'
+t = zlib.compress(s)
+print(t)
+print(zlib.decompress(t))
+
+
+3. write a program which accepts basic arithmetic expression from console and print the evaluation result
+
+ex: input string = 35+3
+output = 38
+
+hint: use eval() - to evaluate an expression
+
+expression = raw_input()
+print(eval(expression))
+
+
+4. Write assert statements to verify that every number in the list [2,4,6,8] is even
+
+hint: use "assert expression" to make assertion
+
+l = [2,4,6,8]
+for i in l:
+	assert i%2==0
+
+
+
+
